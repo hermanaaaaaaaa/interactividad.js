@@ -11,6 +11,10 @@ nombre= "juan";
 edad = 21;
 console.log("Hola " + nombre);
 
-function saludar() {
+function saludar(_nombre="mundo") {
+    alert("hola" + _nomnbre)
 
 }
+saludar ();
+saludar (nombre);
+saludar ("sandra");
