@@ -12,6 +12,17 @@ body.dark {
     background-color: var(--dark);
     color: var(--light);
 }
+
+
+section#attract{
+    position: fixed;
+    background: rgb(105, 16, 16);
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+
+}
 button{
     background-color: var(--dark);
     color: var(--light);
